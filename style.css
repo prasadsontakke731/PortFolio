@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('./portfolioimg/b1.png'),url('./portfolioimg/bg1.jpeg');
+    background-size: 50% 100% , cover;
+    background-position: right, center;
+    background-repeat: no-repeat, no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 63%, 50% 100%, 0% 75%, 0 0);
+background-attachment: fixed;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+    letter-spacing: 5px;
+}
+.menu{
+    margin-right: 100px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 25px;
+    /* padding-left: 100px; */
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.logo span{
+    color: brown;
+}
+.menu a:hover{
+    background-color: rgb(237, 11, 151);
+    color: white;
+    border-radius: 20px;
+    transition: all 1s linear;
+    transform: scale(1.4);
+}
+.logo:hover{
+    font-size: 55px;
+    font-weight: 500;
+    transition: all 1s linear;
+    transform: scale(1.1);
+}
+.text{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 400px;
+}
+.text h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+.text p{
+    font-size: 25px;
+}
+.c-btn{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(252, 29, 233);
+    cursor: pointer;
+}
+.c-btn:hover{
+    font-size: 20px;
+    transform: scale(1.2);
+    transition: all 1s linear;
+}
+#about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-info h1{
+    font-size: 50px;
+
+}
+.img{
+    border: 2px solid blue;
+    
+}
+.section-info p{
+    font-size: 25px;
+    color: rgb(40, 21, 246);
+
+}
+.about-row{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 300px;
+    height: 300px;
+
+    /* padding: 50px; */
+    border-radius: 50%;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-right-col{
+    font-size: 20px;
+    /* text-align: justify; */
+}
+/* 3rd section  */
+#skills{
+    padding: 100px 50px;
+    background: url("./portfolioimg/bg2.jpg");
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.skills-row{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(45, 52, 54);
+    padding: 50px;
+}
+.skill-left-col{
+  flex-basis: 50%;  
+}
+.skill-right-col{
+    flex-basis: 50%;  
+  }
+  progress{
+    width: 80%;
+  }
+  .progress-div{
+    width: 70%;
+    margin: auto;
+  }
+  .progress-div p{
+    margin-bottom: 20px;
+  }
+
+   /* section 4 */
+
+   #services{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+   }
+   .services-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 5px 5px gray;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid yellow;
+   }
+   .project-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 5px 5px gray;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid yellow;
+   }
+   .project-box:hover{
+    background-color: rgb(243, 55, 55);
+    color: white;
+    transition: 0.7s;
+   }
+   .services-box img{
+width: 60%;
+   }
+   .services-box:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.7s;
+   }
+   a{
+    text-decoration: none;
+    font-size: 30px;
+    
+   }
+   a:hover{
+    color: chartreuse;
+   }
+
+   /* section 5 */
+   #contact{
+    padding: 100px 50px;
+    background: linear-gradient(160deg,rgb(212, 134, 134) 45%,white 0%);
+   }
+   .contact-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+   .contact-left-row{
+    flex-basis: 50%;
+   }
+   .contact-right-row{
+    flex-basis: 50%;
+   }
+   .contact-right-row form{
+    text-align: center;
+   }
+   .contact-right-row form h2{
+    margin-bottom: 20px;
+   }
+   .h2{
+    margin-bottom: 20px;
+   }
+   .contact-right-row form input{
+    width: 60%;
+    padding: 10px;
+   }
+   .input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+   }
+   textarea{
+    width: 80%;
+   }
+   .new{
+    color: white;
+   }
+   /* section 6 */
+   #footer{
+    background: rgb(211, 57, 57);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+   }
+
+   .project{
+    background-color: rgb(146, 215, 233);
+   }
+   @media only screen and (max-width:770px){
+    header{
+        background: url("/portfolioimg/bg1.jpeg");
+        background-size: cover;
+    }
+    .menu a{
+        display: none;
+    }
+    .logo{
+        padding-left: 50px;
+    }
+    .text{
+        margin-left: 40px;
+    }
+    .about-left-col{
+      flex-basis: 100%;
+    }
+    .about-left-col img{
+        width: 200px;
+        height: 200px;
+        padding: 0;
+
+    }
+    .about-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-right-col{
+        flex-basis: 100%;
+
+    }
+    .skill-left-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+
+    }
+    .skill-right-col{
+        flex-basis: 100%;
+        margin-top: 10px;
+        
+    }
+    progress{
+        width: 80%;
+    }
+    .progress-div{
+        width: 100%;
+    }
+    .progress-div p{
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 2 0px;
+
+    }
+    .services-box{
+        flex-basis: 100%;
+        margin-top: 20px; 
+    }
+    .contact-left-row{
+        flex-basis: 100%;
+    }
+    .contact-right-row{
+        flex-basis: 100%;
+        padding-left: 40px;
+    }
+    .project-box{
+        flex-basis: 25%;
+        text-align: center;
+        box-shadow: 2px 5px 5px gray;
+        padding: 20px;
+        margin-top: 20px;
+        /* border: 2px solid yellow; */
+       }
+       .project-box:hover{
+        background-color: rgb(243, 55, 55);
+        color: white;
+        transition: 0.7s;
+       }
+    
+   }
+
