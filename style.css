@@ -330,8 +330,9 @@ width: 60%;
         text-align: center;
         box-shadow: 2px 5px 5px gray;
         padding: 20px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         /* border: 2px solid yellow; */
+        padding-top: 20px;
        }
        .project-box:hover{
         background-color: rgb(243, 55, 55);
